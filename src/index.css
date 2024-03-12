@@ -5,11 +5,31 @@
 }
 
 :root {
-  --colour_lightOrange: #ff4d30;
+  --colour_lightOrange: #FD492C;
   --colour_darkOrange: #ff3617;
   --colour_mintGreen: #5cae7c;
-  --colour_Grey: #706F7B;
+  --colour_Grey: #706f7b;
 
   --colour_DefaultBlack: #000;
   --colour_DefaultWhite: #fff;
+
+  --font_poppins: Poppins;
+  --font_rubik: Rubik;
+}
+
+h1,
+h2,
+h3,
+h4,
+a {
+  font-family: var(--font_rubik);
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
 }

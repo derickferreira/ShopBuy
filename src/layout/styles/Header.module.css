@@ -1,0 +1,41 @@
+.header,
+.title,
+.navbar,
+.account_entry {
+  display: flex;
+  align-items: center;
+}
+
+.header {
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.navbar {
+  gap: 1rem;
+}
+
+/* title */
+.title {
+  font-family: var(--font_poppins);
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.title .shop {
+  color: var(--colour_lightOrange);
+  font-size: 1.8rem;
+}
+
+.title .buy {
+  color: var(--colour_mintGreen);
+  text-decoration: underline;
+  font-size: 2.6rem;
+}
+
+.title:hover .shop {
+  text-decoration: underline;
+}
+.title:hover .buy {
+  text-decoration: none;
+}

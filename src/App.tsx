@@ -3,10 +3,13 @@ import "./App.css";
 // react-router -- config
 import { Outlet } from "react-router-dom";
 
+// layout components
+import Header from "./layout/Header";
+
 function App() {
   return (
     <>
-      <h1>Hello</h1>
+      <Header />
       <Outlet />
     </>
   );
