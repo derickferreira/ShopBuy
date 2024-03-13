@@ -82,8 +82,8 @@
 .account_entries .register {
   background-color: var(--colour_lightOrange);
   border: none;
-  padding: 0.5rem 0.9rem;
-  border-radius: 10px;
+  padding: 0.4rem 1rem;
+  border-radius: 5px;
   box-shadow: var(--colour_lightOrange) 0px 10px 50px;
   transition: 0.3s ease-in-out;
 }
@@ -92,7 +92,7 @@
   color: var(--colour_DefaultWhite);
   font-family: var(--font_poppins);
   font-weight: bold;
-  font-size: 1.3rem;
+  font-size: 1rem;
 }
 
 .account_entries .register:hover {
