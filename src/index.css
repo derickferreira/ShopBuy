@@ -25,6 +25,11 @@ a {
   font-family: var(--font_rubik);
 }
 
+p {
+  font-family: var(--font_rubik);
+  color: var(--colour_Grey);
+}
+
 ul,
 li {
   list-style: none;
