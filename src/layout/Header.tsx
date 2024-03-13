@@ -25,11 +25,11 @@ const Header = () => {
           <NavLink to="/contact">Contact</NavLink>
         </li>
       </nav>
-      <div className={classes.account_entry}>
+      <div className={classes.account_entries}>
         <li>
           <NavLink to="/signin">Sign In</NavLink>
         </li>
-        <button>
+        <button className={classes.register}>
           <NavLink to="/register">Register</NavLink>
         </button>
       </div>
