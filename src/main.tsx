@@ -9,6 +9,9 @@ import About from "./routes/About.tsx";
 import Contact from "./routes/Contact.tsx";
 import ErrorPage from "./routes/ErrorPage.tsx";
 
+// components
+import Search from "./components/Search.tsx";
+
 // react-router -- config
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
@@ -33,6 +36,11 @@ const router = createBrowserRouter([
       {
         path: "/contact",
         element: <Contact />,
+      },
+      // search params
+      {
+        path: "search",
+        element: <Search />,
       },
     ],
   },

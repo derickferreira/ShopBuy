@@ -1,7 +1,13 @@
+import classes from "./style/Home.module.css";
+
 const Home = () => {
   return (
-    <div>Home</div>
-  )
-}
+    <div className={classes.home_container}>
+      <ul className="promotions_product">
 
-export default Home
+      </ul>
+    </div>
+  );
+};
+
+export default Home;
