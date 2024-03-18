@@ -105,3 +105,9 @@
 .account_entries .register:hover a {
   color: var(--colour_mintGreen);
 }
+
+@media screen and (max-width: 885px) {
+  .navbar {
+    display: none;
+  }
+}

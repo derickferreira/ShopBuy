@@ -83,7 +83,7 @@ const Home = () => {
         <div className={classes.why_container}>
           <div className={classes.why_about_us}>
             <h4>Why Choose Us</h4>
-            <h2>Best valued deals you will ever find</h2>
+            <h1>Best valued deals you will ever find</h1>
             <p>
               A unique delivery system, a unique sales system, a unique
               purchasing system - come and be unique. If our customer not only
@@ -100,7 +100,7 @@ const Home = () => {
             <li>
               <TbWorldDollar />
               <div className={classes.box_text}>
-                <h4>A global sales reach</h4>
+                <h3>A global sales reach</h3>
                 <p>
                   In addition to selling worldwide, we go to extra mile to
                   reduce taxes. We believe lower taxes mean fewer barriers to
@@ -111,7 +111,7 @@ const Home = () => {
             <li>
               <CiBitcoin />
               <div className={classes.box_text}>
-                <h4>Crypto System</h4>
+                <h3>Crypto System</h3>
                 <p>
                   Our app features a sleek, tech-forward interface, fully
                   compatible with cryptocurrencies. If you're intriged, click
@@ -122,7 +122,7 @@ const Home = () => {
             <li>
               <GrUserWorker />
               <div className={classes.box_text}>
-                <h4>Job Opportunities</h4>
+                <h3>Job Opportunities</h3>
                 <p>
                   If you're a young talend looking to join us, whether in
                   delivery or IT, get in touch. We'd be thrilled to have you on
