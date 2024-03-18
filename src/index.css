@@ -5,13 +5,14 @@
 }
 
 :root {
-  --colour_lightOrange: #FD492C;
+  --colour_lightOrange: #fd492c;
   --colour_darkOrange: #ff3617;
   --colour_mintGreen: #5cae7c;
   --colour_Grey: #706f7b;
 
   --colour_DefaultBlack: #000;
   --colour_DefaultWhite: #fff;
+  --colour_DefaultGrey: #2d2d2d;
 
   --font_poppins: Poppins;
   --font_rubik: Rubik;

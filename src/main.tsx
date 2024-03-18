@@ -8,6 +8,8 @@ import Shop from "./routes/Shop.tsx";
 import About from "./routes/About.tsx";
 import Contact from "./routes/Contact.tsx";
 import ErrorPage from "./routes/ErrorPage.tsx";
+import Register from "./routes/Register.tsx";
+import Login from "./routes/Login.tsx";
 
 // components
 import Search from "./components/Search.tsx";
@@ -36,6 +38,14 @@ const router = createBrowserRouter([
       {
         path: "/contact",
         element: <Contact />,
+      },
+      {
+        path: "/register",
+        element: <Register />,
+      },
+      {
+        path: "/signin",
+        element: <Login/>
       },
       // search params
       {
