@@ -1,21 +1,21 @@
-import { ReactElement, FormEvent, useState } from "react";
+import { FormEvent, ReactElement, useState } from "react";
 
 export function useForm(steps: ReactElement[]) {
   const [currentStep, setCurrentStep] = useState(0);
 
-  const changeStep = (index: number, event?: FormEvent) => {
-    if (event) event.preventDefault();
+  function changeStep(i: number, e?: FormEvent) {
+    if (e) e.preventDefault();
 
-    if (index < 0 || index >= steps.length) return;
+    if (i < 0 || i >= steps.length) return;
 
-    setCurrentStep(index);
-  };
+    setCurrentStep(i);
+  }
 
   return {
-    changeStep,
-    currentComponent: steps[currentStep],
     currentStep,
-    isLastStep: currentStep + 1 === steps.length ? true : false,
+    currentComponent: steps[currentStep],
     isFirstStep: currentStep === 0 ? true : false,
+    isLastStep: currentStep === steps.length - 1 ? true : false,
+    changeStep,
   };
 }

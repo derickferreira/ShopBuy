@@ -88,18 +88,45 @@
   object-fit: cover;
 }
 
+/* banner */
+.banner {
+  background-color: #2d2d2d;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  height: 10rem;
+  border-bottom: 1px solid var(--colour_DefaultBlack);
+}
+
+.banner h2 {
+  color: var(--colour_DefaultWhite);
+  font-size: 2rem;
+}
+
+.banner span {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.banner h3,
+.banner svg {
+  color: var(--colour_lightOrange);
+  font-size: 2rem;
+}
+
 @media screen and (max-width: 460px) {
   .input_email {
     width: 300px;
   }
 
   .input_email input {
-    font-size: .9rem;
+    font-size: 0.9rem;
   }
 
   .input_email button {
     padding: 0 1rem;
-    font-size: .9rem;
+    font-size: 0.9rem;
   }
-
 }

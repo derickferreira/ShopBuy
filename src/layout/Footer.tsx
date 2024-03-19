@@ -1,12 +1,24 @@
 // images
 import dinoImage from "../images/dinoTransparent.png";
 
+// react-icons
+import { FaPhone } from "react-icons/fa6";
+
 // css
 import classes from "./styles/Footer.module.css";
 
 const Footer = () => {
   return (
     <footer>
+      <div className={classes.banner}>
+        <h2>Do you need to speak to us?</h2>
+        <span>
+          <FaPhone/>
+          <h3>
+            +55 21 99399-5120
+          </h3>
+        </span>
+      </div>
       <ul className={classes.email_container}>
         <div className={classes.email_field}>
           <h1>You're still here!</h1>
