@@ -185,7 +185,6 @@
 .why_about_us,
 .container_right {
   display: flex;
-
 }
 
 .why_about_us {
@@ -262,4 +261,12 @@
 .image_choose_container img {
   width: 100%;
   text-align: center;
+}
+
+@media screen and (max-width: 550px) {
+  .why_container {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
 }

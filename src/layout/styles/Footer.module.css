@@ -87,3 +87,19 @@
   height: 100%;
   object-fit: cover;
 }
+
+@media screen and (max-width: 460px) {
+  .input_email {
+    width: 300px;
+  }
+
+  .input_email input {
+    font-size: .9rem;
+  }
+
+  .input_email button {
+    padding: 0 1rem;
+    font-size: .9rem;
+  }
+
+}

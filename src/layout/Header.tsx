@@ -1,6 +1,9 @@
 // react-router
 import { NavLink } from "react-router-dom";
 
+// react-icons
+import { FaBars } from "react-icons/fa";
+
 // css
 import classes from "./styles/Header.module.css";
 
@@ -25,6 +28,9 @@ const Header = () => {
           <NavLink to="/contact">Contact</NavLink>
         </li>
       </nav>
+      <div className={classes.bar_btn}>
+        <FaBars />
+      </div>
       <div className={classes.account_entries}>
         <li>
           <NavLink to="/signin">Sign In</NavLink>
