@@ -1,5 +1,5 @@
 // css
-import classes from "./Steps.module.css";
+import classes from "./style/Steps.module.css";
 
 // react-icons
 import { FaRegUserCircle } from "react-icons/fa";

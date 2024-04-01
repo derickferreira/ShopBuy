@@ -19,7 +19,7 @@
 .actions {
   display: flex;
   justify-content: flex-end;
-  transition: .3s;
+  transition: 0.3s;
   gap: 1rem;
 }
 
@@ -44,7 +44,7 @@
 }
 
 .actions button:hover {
-    transform: scale(1.05);
+  transform: scale(1.05);
   background-color: transparent;
   box-shadow: rgba(255, 255, 255, 0.2) 0px 0px 0px 1px inset,
     rgba(0, 0, 0, 0.9) 0px 0px 0px 1px;
@@ -52,5 +52,56 @@
 }
 
 .actions button:active {
-    transform: scale(.95);
+  transform: scale(0.95);
 }
+
+/* form css */
+.inputs_container label {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.inputs_container label span {
+  font-family: var(--font_poppins);
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.inputs_container span > span {
+  color: var(--colour_lightOrange);
+}
+
+.inputs_container input[type="text"] {
+  padding: 0.6rem 1.2rem;
+  border: none;
+  border-radius: 0.1rem;
+  outline: none;
+  font-family: var(--font_rubik);
+  font-size: 1rem;
+  background-color: #f2f2f2;
+}
+
+.inputs_container select,
+.inputs_container input[type="date"] {
+  border: none;
+  background-color: #f2f2f2;
+  padding: 0.6rem 1.2rem;
+  border-radius: 0.1rem;
+  display: flex;
+  outline: none;
+}
+
+.inputs_container h1 {
+  text-align: center;
+}
+
+.inputs_container textarea {
+  resize: none;
+  outline: none;
+  height: 200px;
+  width: 100%;
+  padding: 0.1rem;
+  outline: none;
+}
+
