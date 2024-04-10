@@ -16,6 +16,13 @@
 
   --font_poppins: Poppins;
   --font_rubik: Rubik;
+
+  /* extras */
+  --colour_cocoa: #191815;
+  --colour_coal: #282729;
+  --colour_midnight: #051119;
+  --colour_night_forest: #121813;
+  --colour_burnt_coffee: #140e0a;
 }
 
 body {

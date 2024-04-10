@@ -1,3 +1,6 @@
+// css
+import classes from "./style/SearchForm.module.css";
+
 import { FormEvent } from "react";
 
 import { useState } from "react";
@@ -15,7 +18,7 @@ const SearchForm = () => {
   };
 
   return (
-    <form onSubmit={handleSubmit}>
+    <form onSubmit={handleSubmit} className={classes.form_container}>
       <input type="text" onChange={(e) => setQuery(e.target.value)} />
       <input type="submit" value="Search" />
     </form>
