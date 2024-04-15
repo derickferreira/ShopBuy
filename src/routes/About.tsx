@@ -1,7 +1,16 @@
+// components
+import OurTeam from "../components/OurTeam";
+import Testimonials from "../components/Testimonials";
+import Company from "../components/Company";
+
 const About = () => {
   return (
-    <div>About</div>
-  )
-}
+    <div>
+      <OurTeam />
+      <Testimonials/>
+      <Company/>
+    </div>
+  );
+};
 
-export default About
+export default About;
